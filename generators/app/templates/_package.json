@@ -42,7 +42,7 @@
     "gulp-sass":"^2.3.2",<% } %>
     "gulp-sourcemaps": "^2.1.1",
     "gulp-uglify": "^2.0.0",
-    "gulp-uncss": "^1.0.6",<% if (useFlexboxgrid) { %>
+    "gulp-uncss": "^1.0.6"<% if (useFlexboxgrid) { %> ,
     "flexboxgrid": "^6.3.1",<% } %> <% if (useBootstrap) { %>
     "bootstrap": "^3.3.6",<% } if (deployMethod == 'ftp') {%>
     "vinyl-ftp": "^0.5.0"<% } if (deployMethod == 'gh-pages') {%>
